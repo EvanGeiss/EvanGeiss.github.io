@@ -1,6 +1,26 @@
 <!DOCTYPE html>
 <html>
+    <head>
+        <title>Evan Geiss</title>
+        
+        <meta name="HandheldFriendly" content="True">
+        <meta name="MobileOptimized" content="320/">
+        <meta name="viewport" content="width=device.width, inital-scale=1.0">
+        
+        <script>
+            var light = new Array();
+            light[0] = 'black';
+            light[1] = 'white';
+            
+            function flip(whichway){
+                document.body.style.backgroundColor = light[whichway]
+            }
+        </script>
+    </head>
     <body>
         <h1>Evan Geiss's Website</h1>
+        
+        <input type="button" value="OFF" onclick="flip(0);">
+        <input type="button" value="ON" onclick="flip(1);">
     </body>
-</html>
+</html> 
