@@ -7,33 +7,25 @@
         <meta name="MobileOptimized" content="320"  >
         <meta name="viewport" content="width=device-width, inital-scale=1.0">
         
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        
         <script>
-            var light = new Array();
-            light[0] = 'white';
-            light[1] = 'black';
-            light[2] = 'red';
-            light[3] = 'blue;'
             
-            function flip(whichway){
-                document.body.style.backgroundColor = light[whichway]
-            }
         </script>
     </head>
     <body>
         <h1>Evan Geiss's Website</h1>
         
-        <div id="directions">
-            <ul>
-                <li></li>
-                <li></li>
-                <li></li>
-            </ul>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    <img width="300" height="300" src="doubleI.png">
+                </div>
+                <div class="col-sm-6">
+                    <img width="300" height="300" src="E.jpg">
+                </div>
+            </div>
         </div>
-        
-        <input type="button" value="WHITE" onclick="flip(0);">
-        <input type="button" value="BLACK" onclick="flip(1);">
-        <input type="button" value="RED" onclick="flip(2);">
-        <input type="button" value="BLUE" onclick="flip(3);">
         
     </body>
 </html> 
