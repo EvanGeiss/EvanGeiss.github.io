@@ -1,4 +1,5 @@
-<!DOCTYPE html>
+<?php
+echo'<!DOCTYPE html>
 <html>
     <head>
         <title>Evan Geiss</title>
@@ -41,3 +42,5 @@
 	    
     </body>
 </html> 
+';
+?>
