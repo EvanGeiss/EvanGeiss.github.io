@@ -6,3 +6,9 @@ body{
 #link-Work {
     text-decoration-style: none;
 }
+
+.wrapper{
+    display: grid;
+    
+    grid-template-columns: repeat(3, 1fr); 
+}
