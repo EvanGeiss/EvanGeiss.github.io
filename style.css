@@ -11,10 +11,48 @@ body{
     display: grid;
     
     grid-template-columns: repeat(3, 1fr); 
-    grid-gap: 1em;
-    
+    grid-gap: 1em;   
 }
 
 .wrapper > div {
     padding: 1em;
+}
+
+.videos{
+    transition-duration: 0.5s;
+    
+    border: 1px solid black;
+    background-color: white;
+}
+
+.videos:hover {
+    background-color: blueviolet;
+    border: 1px solid blueviolet;
+    color: white;
+}
+
+.website{
+    transition-duration: 0.5s;
+    
+    border: 1px solid black;
+    background-color: white;
+}
+
+.website:hover {
+    background-color: blueviolet;
+    border: 1px solid blueviolet;
+    color: white;
+}
+
+.podcast{
+    transition-duration: 0.5s;
+    
+    border: 1px solid black;
+    background-color: white;
+}
+
+.podcast:hover {
+    background-color: blueviolet;
+    border: 1px solid blueviolet;
+    color: white;
 }
