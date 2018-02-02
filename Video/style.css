@@ -1,0 +1,16 @@
+body {
+    text-align: center;
+    align-content: center;
+}
+
+.video {
+    padding-left: 31%;
+    
+    display: grid;
+    
+    text-align: center;
+    
+    grid-template-columns: 1fr;
+    
+    
+}
