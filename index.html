@@ -21,7 +21,46 @@
             <a href="MyPodcast/index.html"><button  class="podcast">My Podcast</button></a>
 	    </div>
         <br>
+	
+	    <div id="cal">
+            <style>
+                #cal{
+                    align-content: center;
+                    text-align: center;
+                }
+            </style>
 
+            <span>Total Bill Amount:</span>
+            $ <input type="text" id="bill" class="amount-field">
+
+            <br>
+
+            <span>Percentage:</span>
+            % <input type="text" id="percent" class="percent-field">
+
+            <br>
+
+            <button onclick="btn()">Calculator</button>
+
+            <br>
+            
+            <span id="answer">$0.00</span>
+            <script src="">
+                function btn(){
+                    var bill = document.getElementById('bill').value;
+                    var percent = document.getElementById('percent').value;
+                    var prc = percent*.01;
+
+                    var an = document.getElementById('answer');
+
+                    var tip = bill * prc;
+                    console.log(tip);
+
+                    an.innerHTML = '$' + tip;
+                }
+            </script>
+        </div>
+	    
         <p>To contact me, send an message to 
             <a href="mailto:egeiss03@gmail.com">my email</a> 
         </p>
